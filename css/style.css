@@ -118,6 +118,7 @@ section#about .contenedor .padre {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-bottom: 5em;
+  padding: 2%;
 }
 
 section#about .contenedor .padre .izq {
@@ -163,6 +164,24 @@ section#about .contenedor .padre .der img {
   max-height: 350px;
 }
 
+@media screen and (max-width: 1199px) {
+  section#about .contenedor .padre .izq {
+    position: static;
+    max-width: 1200px;
+    padding: 1%;
+  }
+  section#about .contenedor .padre .izq h2 {
+    text-align: center;
+  }
+  section#about .contenedor .padre .izq p {
+    text-align: justify;
+  }
+  section#about .contenedor .padre .der {
+    max-width: 1200px;
+    margin-top: 1em;
+  }
+}
+
 section#main {
   background-color: #00ccdb;
 }
@@ -173,6 +192,9 @@ section#main .contenedor .padre {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section#main .contenedor .padre .izq {
@@ -227,5 +249,14 @@ section#main .contenedor .padre .der {
 
 section#main .contenedor .padre .der img {
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  section#main .contenedor .padre {
+    padding: 2%;
+  }
+  section#main .contenedor .padre .der img {
+    margin-top: 2em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

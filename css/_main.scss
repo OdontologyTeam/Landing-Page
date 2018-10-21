@@ -4,6 +4,8 @@ section#main{
         .padre{
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+   
             .izq{
                 margin-top: 3em;
                 flex-direction: column;
@@ -44,6 +46,21 @@ section#main{
                 max-width: 600px;
                 img{
                     width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section#main {
+        .contenedor {
+            .padre {
+                padding: 2%;
+                .der {
+                    img{
+                        margin-top: 2em;
+                    }
                 }
             }
         }

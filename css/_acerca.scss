@@ -1,0 +1,42 @@
+section#about {
+    background-color: white;
+    .contenedor {
+        margin-top: 5em;
+        .padre {
+            display: flex;
+            flex-wrap: wrap;
+            .izq {
+                width: 100%;
+                max-width: 600px;
+                font-family: "Open Sans";
+                text-align: center;
+                position: relative;
+                left: 6em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                top: -3.5em;
+                h2 {
+                    text-align: lefT;
+                    font-weight: 700;
+                }
+                p{
+                    margin-top: 1em;
+                    text-align: left;
+                }
+            }
+
+            .der {
+                width: 100%;
+                max-width: 600px;
+                text-align: center;
+                img{
+                    width: 100%;
+                    margin: auto;
+                    max-width: 300px;
+                    max-height: 350px;
+                }
+            }
+        }
+    }
+}

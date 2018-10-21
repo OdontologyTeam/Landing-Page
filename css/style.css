@@ -39,6 +39,65 @@ header .contenedor nav li:nth-child(5) {
   border: 1px solid white;
 }
 
+section#about {
+  background-color: white;
+}
+
+section#about .contenedor {
+  margin-top: 5em;
+}
+
+section#about .contenedor .padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#about .contenedor .padre .izq {
+  width: 100%;
+  max-width: 600px;
+  font-family: "Open Sans";
+  text-align: center;
+  position: relative;
+  left: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -3.5em;
+}
+
+section#about .contenedor .padre .izq h2 {
+  text-align: lefT;
+  font-weight: 700;
+}
+
+section#about .contenedor .padre .izq p {
+  margin-top: 1em;
+  text-align: left;
+}
+
+section#about .contenedor .padre .der {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+section#about .contenedor .padre .der img {
+  width: 100%;
+  margin: auto;
+  max-width: 300px;
+  max-height: 350px;
+}
+
 section#main {
   background-color: #00ccdb;
 }

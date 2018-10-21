@@ -38,4 +38,70 @@ header .contenedor nav li a {
 header .contenedor nav li:nth-child(5) {
   border: 1px solid white;
 }
+
+section#main {
+  background-color: #00ccdb;
+}
+
+section#main .contenedor .padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#main .contenedor .padre .izq {
+  margin-top: 3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  width: 100%;
+  max-width: 600px;
+  color: white;
+  font-family: "Open Sans";
+}
+
+section#main .contenedor .padre .izq h1, section#main .contenedor .padre .izq p {
+  text-align: left;
+}
+
+section#main .contenedor .padre .izq h1 {
+  font-size: 1.6em;
+}
+
+section#main .contenedor .padre .izq p {
+  margin-top: 1.7em;
+  font-size: 0.9em;
+}
+
+section#main .contenedor .padre .izq button {
+  position: relative;
+  top: 1em;
+  left: -0.6em;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.637);
+  color: white;
+  font-family: "Open Sans";
+  padding: 0.5em 2em 0.5em 2em;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+section#main .contenedor .padre .izq button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+section#main .contenedor .padre .der {
+  width: 100%;
+  max-width: 600px;
+}
+
+section#main .contenedor .padre .der img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

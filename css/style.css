@@ -3,4 +3,39 @@
           box-sizing: border-box;
   margin: 0;
 }
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #00ccdb;
+}
+
+header .contenedor nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 0 1em 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .contenedor nav li {
+  list-style-type: none;
+  padding: 1%;
+}
+
+header .contenedor nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+header .contenedor nav li:nth-child(5) {
+  border: 1px solid white;
+}
 /*# sourceMappingURL=style.css.map */

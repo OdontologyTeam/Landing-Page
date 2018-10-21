@@ -39,6 +39,70 @@ header .contenedor nav li:nth-child(5) {
   border: 1px solid white;
 }
 
+section#services {
+  background-color: #F8F8F8;
+}
+
+section#services .contenedor {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+section#services .contenedor h2 {
+  text-align: center;
+}
+
+section#services .contenedor button {
+  margin-top: 3em;
+  font-family: "Open Sans";
+  color: white;
+  background-color: #00CCDB;
+  border-color: transparent;
+  padding: 0.2em 2em 0.2em 2em;
+}
+
+section#services .contenedor .padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#services .contenedor .padre .caja {
+  padding: 1.5%;
+  width: 100%;
+  margin: 1%;
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  max-width: 350px;
+  border-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+section#services .contenedor .padre .caja .titulo h3, section#services .contenedor .padre .caja .titulo p {
+  text-align: center;
+  margin-top: 1em;
+}
+
+section#services .contenedor .padre .caja .titulo p {
+  color: rgba(0, 0, 0, 0.589);
+}
+
+section#services .contenedor .padre .caja button {
+  font-family: "Open Sans";
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 1em;
+  color: deepskyblue;
+  position: relative;
+  left: 8em;
+}
+
 section#about {
   background-color: white;
 }
@@ -53,6 +117,7 @@ section#about .contenedor .padre {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 5em;
 }
 
 section#about .contenedor .padre .izq {

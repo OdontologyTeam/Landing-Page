@@ -2,7 +2,7 @@
     <div id="app">
         <div class="contenedor">
             <nav>
-                <li v-for="(item, index) in navItems" key="index" ><a href="#">{{item}}</a></li>               
+                <li v-for="(item, index) in navItems" key="index" :item="item"><a href="#">{{item}}</a></li>               
             </nav>
         </div>
     </div>   

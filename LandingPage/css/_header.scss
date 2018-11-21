@@ -1,23 +1,27 @@
-header{
-    background-color: #00ccdb;
-    .contenedor{
-        nav{
-            display: flex;
-            padding: 1em 0 1em 0;
-            justify-content: flex-end;
-            li{
-                list-style-type: none;
-                padding: 1%;
-                a{
-                    text-decoration: none;
-                    color: white;
-                    font-family: "Open Sans";
-                    font-weight: 300;
-                }
-                &:nth-child(5){
-                    border: 1px solid white;
-                }
-            }
-        }
+.contenedor {
+  background-color: #00ccdb;
+
+  nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 1em 0 1em 0;
+    justify-content: flex-end;
+
+    li {
+      list-style-type: none;
+      padding: 1%;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: "Open Sans";
+        font-weight: 300;
+      }
+
+      &:nth-child(5) {
+        border: 1px solid white;
+      }
     }
+  }
 }

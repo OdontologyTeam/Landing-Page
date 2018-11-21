@@ -4,16 +4,17 @@
   margin: 0;
 }
 
+/*.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}*/
 .contenedor {
-  max-width: 1200px;
-  margin: auto;
-}
-
-header {
   background-color: #00ccdb;
 }
 
-header .contenedor nav {
+.contenedor nav {
+  max-width: 1200px;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,19 +24,19 @@ header .contenedor nav {
           justify-content: flex-end;
 }
 
-header .contenedor nav li {
+.contenedor nav li {
   list-style-type: none;
   padding: 1%;
 }
 
-header .contenedor nav li a {
+.contenedor nav li a {
   text-decoration: none;
   color: white;
   font-family: "Open Sans";
   font-weight: 300;
 }
 
-header .contenedor nav li:nth-child(5) {
+.contenedor nav li:nth-child(5) {
   border: 1px solid white;
 }
 

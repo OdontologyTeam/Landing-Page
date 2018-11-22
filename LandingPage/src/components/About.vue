@@ -6,7 +6,7 @@
         <p>{{text}}</p> 
       </div>
       <div class="der">
-        <img :src="'../dist/'+img" alt="">
+        <img :src="'../imgs/'+img" alt="">
       </div>
     </div>
   </div>

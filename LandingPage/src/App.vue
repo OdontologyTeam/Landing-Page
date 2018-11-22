@@ -8,6 +8,9 @@
         <section id="main">
             <Home/> 
         </section>
+        <section id="about">
+            
+        </section>
     </div>   
 </template>
 <script>

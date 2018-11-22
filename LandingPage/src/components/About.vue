@@ -6,15 +6,16 @@
         <p>{{text}}</p> 
       </div>
       <div class="der">
-        <img src="../imgs/angelos.jpg" alt="">
+        <img :src="'../dist/'+img" alt="">
       </div>
     </div>
   </div>
 </template>
 <script>
     export default{
-        data(){
-            return{
+      data(){
+        return{
+                img:'portrait.jpg',
                 title:'Acerca de mí',
                 text: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, amet facilis laudantium, culpa
           ipsa consectetur adipisci accusamus rerum tempore, ratione animi dolorem sapiente praesentium

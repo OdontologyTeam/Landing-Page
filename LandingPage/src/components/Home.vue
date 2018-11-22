@@ -7,7 +7,7 @@
         <button>{{button}}</button>
       </div>
       <div class="der">
-        <img src="imgs/dentist.png" alt="">
+        <img src="../imgs/dentist.png" alt="">
       </div>
     </div>
   </div>

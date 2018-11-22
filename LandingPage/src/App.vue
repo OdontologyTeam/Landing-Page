@@ -5,7 +5,9 @@
                 <li v-for="(item, index) in navItems" key="index" :item="item"><a href="#">{{item}}</a></li>               
             </nav>
         </div>
-        <Home/> 
+        <section id="main">
+            <Home/> 
+        </section>
     </div>   
 </template>
 <script>

@@ -104,11 +104,8 @@ section#services .contenedor .padre .caja button {
   left: 8em;
 }
 
-section#about {
-  background-color: white;
-}
-
 section#about .contenedor {
+  background-color: white !important;
   margin-top: 5em;
 }
 

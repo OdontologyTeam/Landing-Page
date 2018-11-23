@@ -1,6 +1,9 @@
 <template>
   <div class="contenedor">
-    <div class="padre">
+    <div class="padre" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
       <div class="izq">
         <h2>{{title}}</h2>
         <p>{{text}}</p> 

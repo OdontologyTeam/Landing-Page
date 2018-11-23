@@ -1,6 +1,6 @@
 <template>
   <div class="contenedor">
-    <div class="padre">
+    <div class="padre"  data-aos="fade-down">
       <div class="izq">
         <h1>{{title}}</h1>
         <p>{{text}}</p>

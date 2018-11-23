@@ -1,7 +1,7 @@
 <template>
   <div class="contenedor">
     <h2>Conoce mis servicios</h2>
-    <div class="padre">
+    <div class="padre" data-aos="zoom-in-down">
       <div class="caja" v-for="info in cardData">
         <div class="img">
             <img :src="'../../imgs/'+info.img" alt="">
@@ -13,7 +13,7 @@
         <button>Ver más</button>
       </div>
     </div>
-    <button>Más servicios</button>
+    <button data-aos="zoom-out-up">Más servicios</button>
   </div>
 </template>
 <script>

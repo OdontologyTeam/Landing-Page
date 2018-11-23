@@ -14,12 +14,14 @@
         <section id="services">
             <Services/>
         </section>
+        <Location/>
     </div>   
 </template>
 <script>
     import Home from './components/Home.vue'
     import About from './components/About.vue'
     import Services from './components/Services.vue'
+    import Location from './components/Location.vue'
     export default{
         name: 'app',
         data(){
@@ -30,7 +32,8 @@
         components:{
             Home,
             About,
-            Services
+            Services,
+            Location 
         }
     }
 </script>

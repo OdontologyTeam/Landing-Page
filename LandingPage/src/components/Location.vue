@@ -5,13 +5,13 @@
             <div class="content">
                 <div class="tit">
                     <div class="icon"></div>
-                    <h3 class="title"></h3>        
+                    <h3 class="title">{{place}}</h3>        
                 </div>
-                <label for="" class="address"></label>
-                <label for="" class="phone"></label>
+                <label for="" class="address">{{location}}</label>
+                <label for="" class="phone">{{phone}}</label>
                 <hr>
                 <div class="schedule">
-                    <p class="text"><span class="time"></span></p>
+                    <p class="text" v-for="item in schedule">{{item.day}}<span class="time"> {{item.time}}</span></p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,19 @@
     export default{
         data(){
             return{
-                
+                place: 'Edificio Tempo II',
+                location: 'Calle 43 # 29-13',
+                phone: 'phone',
+                schedule: [
+                    {
+                        day: 'Lun - Vier',
+                        time: '09:00 - 16:00'
+                    },
+                    {
+                        day: 'Sab - Festi',
+                        time: '10:00 - 13:00'
+                    }
+                ]
             }
         }
     }

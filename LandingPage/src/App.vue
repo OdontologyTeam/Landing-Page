@@ -14,7 +14,9 @@
         <section id="services">
             <Services/>
         </section>
-        <Location/>
+        <section class="location">
+            <Location/>
+        </section>
     </div>   
 </template>
 <script>

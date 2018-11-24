@@ -14,8 +14,11 @@
         <section id="services">
             <Services/>
         </section>
-        <section class="location">
+        <section class="location-sect">
             <Location/>
+        </section>
+        <section class="contact-sect">
+            <Contact/>
         </section>
     </div>   
 </template>
@@ -24,6 +27,7 @@
     import About from './components/About.vue'
     import Services from './components/Services.vue'
     import Location from './components/Location.vue'
+    import Contact from './components/Contact.vue'
     export default{
         name: 'app',
         data(){
@@ -35,7 +39,8 @@
             Home,
             About,
             Services,
-            Location 
+            Location,
+            Contact 
         }
     }
 </script>

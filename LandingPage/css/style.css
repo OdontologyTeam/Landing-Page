@@ -192,8 +192,8 @@ section#about .contenedor .padre .der img {
 }
 
 .location .box .content {
-  width: 30%;
   margin: 3em;
+  width: 30%;
   padding: 2em;
   background-color: #fff;
   border: 1px solid black;

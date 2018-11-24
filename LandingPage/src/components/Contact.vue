@@ -1,13 +1,13 @@
 <template>
     <div class="contact">
         <div class="box-father">
-            <div class="title"></div>
+            <div class="title">{{title}}</div>
             <div class="contact-box">
                 <form action="">
-                    <input type="text" class="user-name">
-                    <input type="email" class="user-email">
-                    <textarea class="message" name="" id="" cols="30" rows="10"></textarea>
-                    <button type="submit" class="send-btn"></button>
+                    <input placeholder="Nombre" type="text" class="user-name">
+                    <input placeholder="Email" type="email" class="user-email">
+                    <textarea placeholder="Deja tú mensaje" class="message" name="" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="send-btn">{{button}}</button>
                 </form>
             </div>
         </div>
@@ -16,6 +16,11 @@
 
 <script>
     export default {
-
+        data(){
+            return{
+                title: 'Contactame',
+                button: 'Enviar'
+            }
+        }
     }
 </script>

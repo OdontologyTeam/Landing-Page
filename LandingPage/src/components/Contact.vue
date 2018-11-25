@@ -6,9 +6,9 @@
             </div>
             <div class="contact-box">
                 <form @submit.prevent method="get"> 
-                    <input placeholder="Nombre" type="text" class="user">
-                    <input placeholder="Email" type="email" class="user">
-                    <textarea placeholder="Deja tú mensaje" class="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input placeholder="Nombre" required type="text" class="user">
+                    <input placeholder="Email" required type="email" class="user">
+                    <textarea placeholder="Deja tú mensaje" required class="message" name="" id="" cols="30" rows="10"></textarea>
                     <div class="btn-box">
                         <button type="submit" class="send-btn">{{button}}</button>
                     </div>

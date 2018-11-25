@@ -1,5 +1,6 @@
 .contact {
   width: 100%;
+  margin-top: 3.6em;
 
   .box-father {
     max-width: 420px;
@@ -28,10 +29,14 @@
 
         .user {
           margin-bottom: 1.5em;
+          border: none;
+          padding: 0.9em 0.3em;
         }
 
         .message {
           width: 100%;
+          border: none;
+          padding: 0.9em 0.3em;
         }
 
         .btn-box {
@@ -39,8 +44,15 @@
           width: 100%;
 
           .send-btn {
-            width: 30%;
+            width: 40%;
             text-align: center;
+            border: none;
+            border-radius: 4px;
+            padding: 0.69em 1em;
+            background-color: #00CCDB;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
           }
         }
 

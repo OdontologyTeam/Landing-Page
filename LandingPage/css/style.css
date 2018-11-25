@@ -326,6 +326,7 @@ section#main .contenedor .padre .der img {
 
 .contact {
   width: 100%;
+  margin-top: 3.6em;
 }
 
 .contact .box-father {
@@ -358,10 +359,14 @@ section#main .contenedor .padre .der img {
 
 .contact .box-father .contact-box form .user {
   margin-bottom: 1.5em;
+  border: none;
+  padding: 0.9em 0.3em;
 }
 
 .contact .box-father .contact-box form .message {
   width: 100%;
+  border: none;
+  padding: 0.9em 0.3em;
 }
 
 .contact .box-father .contact-box form .btn-box {
@@ -370,7 +375,14 @@ section#main .contenedor .padre .der img {
 }
 
 .contact .box-father .contact-box form .btn-box .send-btn {
-  width: 30%;
+  width: 40%;
   text-align: center;
+  border: none;
+  border-radius: 4px;
+  padding: 0.69em 1em;
+  background-color: #00CCDB;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

@@ -52,6 +52,8 @@ section#services .contenedor {
 
 section#services .contenedor h2 {
   text-align: center;
+  font-weight: bold;
+  font-size: 2.2em;
 }
 
 section#services .contenedor button {
@@ -84,7 +86,8 @@ section#services .contenedor .padre .caja {
   border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-section#services .contenedor .padre .caja .titulo h3, section#services .contenedor .padre .caja .titulo p {
+section#services .contenedor .padre .caja .titulo h3,
+section#services .contenedor .padre .caja .titulo p {
   text-align: center;
   margin-top: 1em;
 }
@@ -143,7 +146,8 @@ section#about .contenedor .padre .izq {
 
 section#about .contenedor .padre .izq h2 {
   text-align: lefT;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 2.2em;
 }
 
 section#about .contenedor .padre .izq p {
@@ -332,6 +336,11 @@ section#main .contenedor .padre .der img {
 .contact .box-father .title {
   width: 100%;
   text-align: center;
+}
+
+.contact .box-father .title h2 {
+  font-weight: bold;
+  font-size: 2.2em;
 }
 
 .contact .box-father .contact-box {

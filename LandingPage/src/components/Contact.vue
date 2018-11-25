@@ -1,9 +1,11 @@
 <template>
     <div class="contact">
         <div class="box-father">
-            <div class="title">{{title}}</div>
+            <div class="title">
+                <h2>{{title}}</h2>
+            </div>
             <div class="contact-box">
-                <form action="">
+                <form @submit.prevent action="" method="get"> 
                     <input placeholder="Nombre" type="text" class="user-name">
                     <input placeholder="Email" type="email" class="user-email">
                     <textarea placeholder="Deja tú mensaje" class="message" name="" id="" cols="30" rows="10"></textarea>
@@ -20,6 +22,11 @@
             return{
                 title: 'Contactame',
                 button: 'Enviar'
+            }
+        },
+        methods:{
+            submit: function(){
+                console.log('Prevent works!')
             }
         }
     }

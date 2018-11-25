@@ -2,6 +2,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
+  font-family: "Open Sans";
+  font-weight: 300;
 }
 
 /*.contenedor{
@@ -178,6 +180,66 @@ section#about .contenedor .padre .der img {
     max-width: 1200px;
     margin-top: 1em;
   }
+}
+
+.location {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.location .box {
+  width: 100%;
+}
+
+.location .box .content {
+  margin: 3em;
+  width: 30%;
+  padding: 2em;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.location .box .content .tit {
+  margin-bottom: 0.8em;
+}
+
+.location .box .content .tit .title {
+  text-align: left;
+  margin-left: 1.5em;
+  font-weight: bold !important;
+}
+
+.location .box .content .info {
+  width: 100%;
+  margin-bottom: 0.8em;
+}
+
+.location .box .content .info .address, .location .box .content .info .phone {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+  text-align: left;
+}
+
+.location .box .content .line {
+  width: 20% !important;
+  margin-left: 1.5em;
+}
+
+.location .box .content .schedule {
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+.location .box .content .schedule .text {
+  margin-bottom: 0.5em;
+}
+
+.location .box .content .schedule .text .time {
+  margin-left: 0.68em;
 }
 
 section#main {

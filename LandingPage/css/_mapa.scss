@@ -1,0 +1,50 @@
+.location{
+    font-family: "Open Sans";
+    font-weight: 300;
+    .box{        
+        width: 100%;
+        .content{
+            margin: 3em;
+            width: 30%;
+            padding: 2em;
+            background-color: #fff;
+            border: 1px solid black; // remove this border. Just for testing.
+            border-radius: 4px;
+            .tit{
+                margin-bottom: 0.8em;
+                .title{
+                    text-align: left;
+                    margin-left: 1.5em;
+                    font-weight: bold !important;
+                }
+            }
+            .info{
+                width: 100%;
+                margin-bottom: 0.8em;
+                .address, .phone{
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 0.5em;
+                    margin-left: 1.5em;
+                    text-align: left;
+                }
+            }
+            .line{
+                width: 20% !important;
+                margin-left: 1.5em;
+
+            }
+            .schedule{
+                text-align: left;
+                margin-left: 1.5em;
+                margin-top: 0.5em;
+                .text{
+                    margin-bottom: 0.5em;
+                    .time{
+                        margin-left: 0.68em;
+                    }
+                }
+            }
+        }
+    }
+}

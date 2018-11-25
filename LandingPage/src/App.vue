@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <section id="loading">
-<div class="lds-hourglass">
-  
-</div>
+      <div class="lds-hourglass">
+
+      </div>
     </section>
     <div class="contenedor">
       <nav>
-        <li v-for="(item, index) in navItems" key="index" :item="item"><a href="#">{{item}}</a></li>
+        <li v-for="item in navItems" :item="item"><a href="#">{{item}}</a></li>
       </nav>
     </div>
     <section id="main">
@@ -19,7 +19,12 @@
     <section id="services">
       <Services />
     </section>
-    <Location />
+    <section class="location-sect">
+      <Location />
+    </section>
+    <section class="contact-sect">
+      <Contact />
+    </section>
   </div>
 </template>
 <script>
@@ -27,6 +32,8 @@
   import About from './components/About.vue'
   import Services from './components/Services.vue'
   import Location from './components/Location.vue'
+  import Contact from './components/Contact.vue'
+
   export default {
     name: 'app',
     data() {
@@ -38,8 +45,8 @@
       Home,
       About,
       Services,
-      Location
+      Location,
+      Contact
     }
   }
-
 </script>

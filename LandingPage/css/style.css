@@ -319,4 +319,13 @@ section#main .contenedor .padre .der img {
     margin-top: 2em;
   }
 }
+
+.contact {
+  width: 100%;
+}
+
+.contact .box-father {
+  max-width: 420px;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */

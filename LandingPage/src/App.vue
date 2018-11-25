@@ -28,6 +28,7 @@
     import Services from './components/Services.vue'
     import Location from './components/Location.vue'
     import Contact from './components/Contact.vue'
+    
     export default{
         name: 'app',
         data(){

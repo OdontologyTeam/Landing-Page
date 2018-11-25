@@ -5,7 +5,7 @@
                 <h2>{{title}}</h2>
             </div>
             <div class="contact-box">
-                <form @submit.prevent action="" method="get"> 
+                <form @submit.prevent method="get"> 
                     <input placeholder="Nombre" type="text" class="user-name">
                     <input placeholder="Email" type="email" class="user-email">
                     <textarea placeholder="Deja tú mensaje" class="message" name="" id="" cols="30" rows="10"></textarea>

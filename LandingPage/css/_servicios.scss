@@ -18,7 +18,8 @@ section#services {
       color: white;
       background-color: #00CCDB;
       border-color: transparent;
-      padding: 0.2em 2em 0.2em 2em;
+      padding: 0.8em 2.2em 0.8em 2.2em;
+      cursor: pointer;
     }
 
     .padre {
@@ -34,7 +35,7 @@ section#services {
         margin-top: 1em;
         text-align: center;
         max-width: 350px;
-        border-radius: 15px;
+        border-radius: 8px;
         border: 1px solid rgba(128, 128, 128, 0.5);
 
         .titulo {

@@ -25,6 +25,9 @@
     <section class="contact-sect">
       <Contact />
     </section>
+    <section class="foot-sect">
+      <Foot/>
+    </section>
   </div>
 </template>
 <script>
@@ -33,6 +36,7 @@
   import Services from './components/Services.vue'
   import Location from './components/Location.vue'
   import Contact from './components/Contact.vue'
+  import Foot from './components/Footer.vue'
 
   export default {
     name: 'app',
@@ -46,7 +50,8 @@
       About,
       Services,
       Location,
-      Contact
+      Contact,
+      Foot
     }
   }
 </script>

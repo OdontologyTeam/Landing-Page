@@ -73,6 +73,7 @@ section#services .contenedor .padre {
   margin-top: 2em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 1%;
 }
 
 section#services .contenedor .padre .caja {
@@ -165,8 +166,8 @@ section#about .contenedor .padre .der {
 section#about .contenedor .padre .der img {
   width: 100%;
   margin: auto;
-  max-width: 300px;
-  max-height: 350px;
+  max-width: 350px;
+  max-height: 400px;
 }
 
 @media screen and (max-width: 1199px) {

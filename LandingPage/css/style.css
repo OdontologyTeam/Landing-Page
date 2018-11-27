@@ -194,7 +194,8 @@ section#about .contenedor .padre .der img {
 
 .location .box {
   width: 100%;
-  margin: 3em;
+  position: absolute;
+  margin-top: -20.5rem;
 }
 
 .location .box .content {
@@ -202,7 +203,6 @@ section#about .contenedor .padre .der img {
   margin: auto;
   padding: 1.5em;
   background-color: #fff;
-  border: 1px solid black;
   border-radius: 4px;
 }
 

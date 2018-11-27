@@ -3,13 +3,13 @@
     font-weight: 300;
     .box{        
         width: 100%;
-        margin: 3em;
+        position: absolute;
+        margin-top: -20.5rem;
         .content{
             max-width: 350px;
             margin: auto;
             padding: 1.5em;
             background-color: #fff;
-            border: 1px solid black; // remove this border. Just for testing.
             border-radius: 4px;
             .tit{
                 margin-bottom: 0.8em;

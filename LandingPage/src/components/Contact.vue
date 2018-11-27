@@ -4,7 +4,7 @@
             <div class="title">
                 <h2>{{title}}</h2>
             </div>
-            <div class="contact-box">
+            <div class="contact-box" data-aos="zoom-in">
                 <form @submit.prevent method="get"> 
                     <input placeholder="Nombre" required type="text" class="user">
                     <input placeholder="Email" required type="email" class="user">

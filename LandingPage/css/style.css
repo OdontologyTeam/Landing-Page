@@ -299,7 +299,7 @@ section#main .contenedor .padre .izq button {
   border: 1px solid rgba(255, 255, 255, 0.637);
   color: white;
   font-family: "Open Sans";
-  padding: 0.5em 2em 0.5em 2em;
+  padding: 0.8em 2em 0.8em 2em;
   -webkit-transition: 1s linear;
   transition: 1s linear;
 }

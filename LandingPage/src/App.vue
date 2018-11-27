@@ -5,11 +5,13 @@
 
       </div>
     </section>
-    <div class="contenedor">
-      <nav>
-        <li v-for="item in navItems" :item="item"><a href="#">{{item}}</a></li>
-      </nav>
-    </div>
+    <header>
+      <div class="contenedor">
+        <nav>
+          <li v-for="item in navItems" :item="item"><a href="#">{{item}}</a></li>
+        </nav>
+      </div>
+    </header>
     <section id="main">
       <Home />
     </section>

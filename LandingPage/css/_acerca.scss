@@ -5,7 +5,7 @@ section#about {
 
     .padre {
       display: flex;
-      flex-wrap: wrap;
+      //flex-wrap: wrap;
       padding-bottom: 5em;
       padding: 2%;
       justify-content: center;
@@ -26,11 +26,13 @@ section#about {
           text-align: lefT;
           font-weight: bold;
           font-size: 2.2em;
+          margin-top: -2.8em;
         }
 
         p {
           margin-top: 1em;
           text-align: left;
+          max-width: 500px;
         }
       }
 
@@ -71,6 +73,33 @@ section#about {
         .der {
           max-width: 1200px;
           margin-top: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 958px) {
+  section#about {
+    .contenedor {
+      background-color: white !important;
+      margin-top: 5em;
+
+      .padre {
+        flex-wrap: wrap;
+
+        .izq {
+          h2{
+            margin-top: 0.01em;
+          }
+          p {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 2em;
+          }
+        }
+        .der{
+          padding-bottom: 5em;
         }
       }
     }

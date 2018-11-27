@@ -6,15 +6,16 @@
   font-weight: 300;
 }
 
-/*.contenedor{
-    max-width: 1200px;
-    margin: auto;
-}*/
 .contenedor {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
   background-color: #00ccdb;
 }
 
-.contenedor nav {
+header .contenedor nav {
   max-width: 1200px;
   margin: auto;
   display: -webkit-box;
@@ -26,24 +27,27 @@
           justify-content: flex-end;
 }
 
-.contenedor nav li {
+header .contenedor nav li {
   list-style-type: none;
   padding: 1%;
 }
 
-.contenedor nav li a {
+header .contenedor nav li a {
   text-decoration: none;
   color: white;
   font-family: "Open Sans";
   font-weight: 300;
 }
 
-.contenedor nav li:nth-child(5) {
+header .contenedor nav li:nth-child(5) {
   border: 1px solid white;
 }
 
-section#services .contenedor {
+section#services {
   background-color: #F8F8F8 !important;
+}
+
+section#services .contenedor {
   padding-top: 2em;
   padding-bottom: 4em;
   font-family: "Open Sans";
@@ -117,8 +121,6 @@ section#about .contenedor .padre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding-bottom: 5em;
   padding: 2%;
   -webkit-box-pack: center;
@@ -150,11 +152,13 @@ section#about .contenedor .padre .izq h2 {
   text-align: lefT;
   font-weight: bold;
   font-size: 2.2em;
+  margin-top: -2.8em;
 }
 
 section#about .contenedor .padre .izq p {
   margin-top: 1em;
   text-align: left;
+  max-width: 500px;
 }
 
 section#about .contenedor .padre .der {
@@ -185,6 +189,28 @@ section#about .contenedor .padre .der img {
   section#about .contenedor .padre .der {
     max-width: 1200px;
     margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  section#about .contenedor {
+    background-color: white !important;
+    margin-top: 5em;
+  }
+  section#about .contenedor .padre {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#about .contenedor .padre .izq h2 {
+    margin-top: 0.01em;
+  }
+  section#about .contenedor .padre .izq p {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2em;
+  }
+  section#about .contenedor .padre .der {
+    padding-bottom: 5em;
   }
 }
 

@@ -1,5 +1,9 @@
 section#main{
-    background-color: #00ccdb;
+    //background-color: #00ccdb;
+    background-image: url(../imgs/BG.svg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
     .contenedor{
         .padre{
             display: flex;

@@ -278,7 +278,10 @@ section#about .contenedor .padre .der img {
 }
 
 section#main {
-  background-color: #00ccdb;
+  background-image: url(../imgs/BG.svg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
 }
 
 section#main .contenedor .padre {

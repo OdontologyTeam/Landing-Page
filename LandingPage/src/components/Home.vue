@@ -1,15 +1,18 @@
 <template>
   <div class="contenedor">
-    <div class="padre"  data-aos="fade-down">
-      <div class="izq">
-        <h1>{{title}}</h1>
-        <p>{{text}}</p>
-        <button>{{button}}</button>
-      </div>
-      <div class="der">
-        <img src="../../imgs/dentist.png" alt="">
+    <div class="sub">
+      <div class="padre"  data-aos="fade-down">
+        <div class="izq">
+          <h1>{{title}}</h1>
+          <p>{{text}}</p>
+          <button>{{button}}</button>
+        </div>
+        <div class="der">
+          <img src="../../imgs/dentist.png" alt="">
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 <script>

@@ -2,7 +2,6 @@
   <div id="app">
     <section id="loading">
       <div class="lds-hourglass">
-
       </div>
     </section>
     <header>
@@ -15,6 +14,9 @@
     <section id="main">
       <Home />
     </section>
+    <div class="curva">
+      <img src="../imgs/Curve.png" alt="">
+    </div>
     <section id="about">
       <About />
     </section>

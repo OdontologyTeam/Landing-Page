@@ -272,9 +272,10 @@ section#about .contenedor .padre .izq h2 {
 }
 
 section#about .contenedor .padre .izq p {
-  margin-top: 1em;
+  margin-top: 1.1em;
   text-align: left;
   max-width: 500px;
+  padding: 0.8em;
 }
 
 section#about .contenedor .padre .der {

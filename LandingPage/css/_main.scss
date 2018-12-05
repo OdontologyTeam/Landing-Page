@@ -1,4 +1,4 @@
-.curva{
+  .curva{
     width: 100%;
     height: 16vh;
     img{
@@ -36,15 +36,17 @@ section#main {
           h1,
           p {
             text-align: left;
+            padding: 0.8em;
           }
 
           h1 {
             font-size: 1.6em;
+            font-weight: 600;
           }
 
           p {
             margin-top: 1.7em;
-            font-size: 0.9em;
+            font-size: 1.1em;
           }
 
           button {
@@ -85,7 +87,6 @@ section#main {
     .contenedor {
       .padre {
         padding: 2%;
-
         .der {
           img {
             margin-top: 2em;

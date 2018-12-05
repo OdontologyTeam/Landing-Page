@@ -1,12 +1,12 @@
 #loading {
-background-color: #52cffb;
-background-image: linear-gradient(0deg, #52cffb 0%, #0936f9 100%);
+  background-color: #52cffb;
+  background-image: linear-gradient(0deg, #52cffb 0%, #0936f9 100%);
 
 
   position: fixed;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .lds-hourglass {

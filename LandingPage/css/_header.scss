@@ -1,8 +1,94 @@
+header.responsive {
+  display: none;
+  .barra {
+      align-items: center;
+      transition: all 0.5s ease;
+      padding: 0.4em;
+      color: white;
+      margin-top: -0.5em;
+      width: 100%;
+      font-size: 1.73em;
+      font-family: 'Roboto';
+      background: transparent;
+  
+      display: none;
+
+
+      .derecho {
+          width: 50%;
+          font-family: 'FontAwesome';
+          display: flex;  
+          justify-content: flex-end;
+          align-content: center;
+          i{
+            font-style: initial;
+          }
+      }
+
+      .izquierdo {
+          width: 50%;
+          text-align: left;
+      }
+  }
+
+  .barraFixed {
+      top: 0;
+      transition-duration: 1s;
+      display: flex;
+      background: white;
+      width: 100%;
+      color: black;
+      position: fixed;
+      z-index: 100;
+      padding: 0.6em;
+      font-size: 1.2em;
+      font-family: 'Roboto';
+
+      .derecho {
+        width: 50%;
+        font-family: 'FontAwesome';
+        display: flex;  
+        justify-content: flex-end;
+        align-items: center;
+        i{
+          font-style: initial;
+        }
+      }
+
+      .izquierdo {
+          width: 50%;
+          text-align: left;
+      }
+  }
+
+
+  nav {
+      width: 100%;
+
+      display: none;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      li {
+          padding: 1%;
+          font-family: "Roboto";
+          list-style-type: none;
+
+          a {
+              font-family: 'Sans';
+              font-size: 1.6em;
+              color: white;
+              font-weight: 400;
+              text-decoration: none;
+          }
+      }
+  }
+}
+
 header{
 
   background-color: #00ccdb;  
   .contenedor {
-    
     nav {
       max-width: 1200px;
       margin: auto;
@@ -29,4 +115,13 @@ header{
     }
   }
 }
-  
+
+@media screen and (max-width: 750px){
+  header.normal{
+    display: none;
+  }
+
+  header.responsive{
+    display: block;
+  }
+}

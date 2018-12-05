@@ -4,11 +4,12 @@
     img{
         height: 100%;
         width: 100%;
+        position: relative;
+        top: -0.1em;
     }
 }
 section#main {
-  min-height: 40vh;
-
+  
   .contenedor {
     max-width: none;
     background-color: #00ccdb;

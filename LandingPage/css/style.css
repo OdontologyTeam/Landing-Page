@@ -401,10 +401,8 @@ section#about .contenedor .padre .der img {
 .curva img {
   height: 100%;
   width: 100%;
-}
-
-section#main {
-  min-height: 40vh;
+  position: relative;
+  top: -0.1em;
 }
 
 section#main .contenedor {

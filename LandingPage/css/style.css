@@ -582,6 +582,18 @@ section#main .contenedor .sub .padre .der img {
   color: #ffffff;
 }
 
+@media screen and (max-width: 750px) {
+  .footer {
+    width: 100%;
+    display: block;
+  }
+  .footer .left, .footer .right {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: left;
+  }
+}
+
 #loading {
   background-color: #52cffb;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#52cffb), to(#0936f9));

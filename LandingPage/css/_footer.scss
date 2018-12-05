@@ -14,3 +14,14 @@
         color: #ffffff; 
     }
 }
+@media screen and (max-width: 750px) {
+    .footer{
+        width: 100%; 
+        display: block;
+        .left, .right{
+            width: 100%;
+            margin-bottom: 1em;
+            text-align: left;
+        }
+    }
+}

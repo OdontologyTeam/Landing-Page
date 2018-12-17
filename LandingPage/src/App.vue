@@ -4,17 +4,20 @@
       <div class="lds-hourglass">
       </div>
     </section>
+      <div class="menu">
+        <p><i class="fas fa-times-circle"></i></p>
+        <nav>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">ACERCA</a></li>
+          <li><a href="#">SERVICIOS</a></li>
+          <li><a href="#">UBICACIÓN</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </nav>
+      </div>
     <header class="responsive">
       <div class="barraFixed">
         <div class="izquierdo">LOGOTIPO</div>
         <div class="derecho"><i class="fas fa-bars"></i></div>
-      </div>
-      <div class="contenedor">
-        <nav>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca</a></li>
-          <li><a href="#">Contacto</a></li>
-        </nav>
       </div>
     </header>
     <header class = "normal">

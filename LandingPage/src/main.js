@@ -5,11 +5,11 @@ new vue({
   el: '#app',
   render: h => h(App)
 })
-
+/*
 window.addEventListener("load", function (event) {
   document.getElementById('loading').style.display = "none"
 })
-
+*/
 
 document.getElementById("closeMenu").addEventListener("click", function(event){
   var menu = document.getElementsByClassName("menu")[0]

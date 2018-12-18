@@ -6,6 +6,8 @@
   opacity: 0.9;
   position: fixed;
   z-index: 200;
+  display: none;
+  transition: all .3s linear;
   p{
     padding: 2%;
     text-align: right;
@@ -66,6 +68,10 @@ header.responsive {
           display: flex;  
           justify-content: flex-end;
           align-content: center;
+          &:hover{
+            cursor: pointer;
+            color: blue;
+          }
           i{
             font-style: initial;
           }

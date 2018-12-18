@@ -5,7 +5,7 @@
       </div>
     </section>
       <div class="menu">
-        <p><i class="fas fa-times-circle"></i></p>
+        <p id = "closeMenu"> <i class="fas fa-times-circle"></i></p>
         <nav>
           <li><a href="#">INICIO</a></li>
           <li><a href="#">ACERCA</a></li>
@@ -17,7 +17,7 @@
     <header class="responsive">
       <div class="barraFixed">
         <div class="izquierdo">LOGOTIPO</div>
-        <div class="derecho"><i class="fas fa-bars"></i></div>
+        <div class="derecho" id = "openMenu"><i class="fas fa-bars"></i></div>
       </div>
     </header>
     <header class = "normal">

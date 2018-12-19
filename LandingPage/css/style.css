@@ -192,7 +192,7 @@ header .contenedor nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1em 0 1em 0;
+  padding: 1em 1.5em 1em 0;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -353,7 +353,7 @@ section#about .contenedor .padre .der img {
   width: 100%;
   margin: auto;
   max-width: 350px;
-  max-height: 400px;
+  max-height: 500px;
 }
 
 @media screen and (max-width: 1199px) {

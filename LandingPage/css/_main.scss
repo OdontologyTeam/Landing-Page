@@ -1,101 +1,107 @@
-  .curva{
+  .curva {
     width: 100%;
     height: 16vh;
-    img{
-        height: 100%;
-        width: 100%;
-        position: relative;
-        top: -0.1em;
+
+    img {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      top: -0.1em;
     }
-}
-section#main {
-  
-  .contenedor {
-    max-width: none;
-    background-color: #00ccdb;
-    z-index: 1;
+  }
 
-    .sub {
-      max-width: 1200px;
-      margin: auto;
+  section#main {
 
-      .padre {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .contenedor {
+      max-width: none;
+      background-color: #00ccdb;
+      z-index: 1;
 
-        .izq {
-          margin-top: 3em;
-          flex-direction: column;
-          text-align: right;
-          width: 100%;
-          max-width: 600px;
-          color: white;
-          font-family: "Open Sans";
+      .sub {
+        max-width: 1200px;
+        margin: auto;
 
-          h1,
-          p {
-            text-align: left;
-            padding: 0.8em;
-          }
+        .padre {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
 
-          h1 {
-            font-size: 1.6em;
-            font-weight: 600;
-          }
-
-          p {
-            margin-top: 1.7em;
-            font-size: 1.1em;
-          }
-
-          button {
-            position: relative;
-            top: 1em;
-            left: -0.6em;
-            background-color: transparent;
-            border: 1px solid rgba(255, 255, 255, 0.637);
+          .izq {
+            margin-top: 3em;
+            flex-direction: column;
+            text-align: right;
+            width: 100%;
+            max-width: 600px;
             color: white;
             font-family: "Open Sans";
-            padding: 0.8em 2em 0.8em 2em;
-            transition: 1s linear;
 
-            &:hover {
-              background: white;
-              color: black;
-              cursor: pointer;
+            h1,
+            p {
+              text-align: left;
+              padding: 0.8em;
+              line-height: 1.7;
+            }
+
+            h1 {
+              font-size: 1.6em;
+              font-weight: 600;
+            }
+
+            p {
+              margin-top: 1.7em;
+              font-size: 1em;
+            }
+
+            button {
+              position: relative;
+              top: 1em;
+              left: -0.6em;
+              background-color: transparent;
+              border: 1px solid rgba(255, 255, 255, 0.637);
+              color: white;
+              font-family: "Open Sans";
+              padding: 0.8em 2em 0.8em 2em;
+              transition: 1s linear;
+              margin-bottom: 2em;
+
+              &:hover {
+                background: white;
+                color: black;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .der {
+            width: 100%;
+            max-width: 600px;
+
+            img {
+              width: 100%;
             }
           }
         }
+      }
+    }
 
-        .der {
-          width: 100%;
-          max-width: 600px;
+  }
 
-          img {
-            width: 100%;
+  @media screen and (max-width: 750px) {
+    section#main {
+      .contenedor {
+        .padre {
+          padding: 2%;
+
+          .der {
+            img {
+              margin-top: 2em;
+            }
           }
         }
       }
-    }
-  }
 
-}
-
-@media screen and (max-width: 750px) {
-  section#main {
-    .contenedor {
-      .padre {
-        padding: 2%;
-        .der {
-          img {
-            margin-top: 2em;
-          }
-        }
+      .contenedor .sub .padre .izq {
+        margin-top: 0;
       }
     }
-    .contenedor .sub .padre .izq {
-      margin-top: 0;
-    }
   }
-}

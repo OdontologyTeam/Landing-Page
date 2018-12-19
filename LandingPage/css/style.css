@@ -2,7 +2,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
-  font-family: "Open Sans";
+  font-family: 'Roboto', sans-serif !important;
   font-weight: 300;
 }
 
@@ -281,6 +281,7 @@ section#services .contenedor .padre .caja .titulo p {
 
 section#services .contenedor .padre .caja .titulo p {
   color: rgba(0, 0, 0, 0.589);
+  line-height: 1.7;
 }
 
 section#services .contenedor .padre .caja button {
@@ -330,7 +331,8 @@ section#about .contenedor .padre .izq {
 }
 
 section#about .contenedor .padre .izq h2 {
-  text-align: lefT;
+  text-align: center;
+  max-width: 500px;
   font-weight: bold;
   font-size: 2.2em;
   margin-top: -2.8em;
@@ -340,6 +342,7 @@ section#about .contenedor .padre .izq p {
   margin-top: 1.1em;
   text-align: left;
   max-width: 500px;
+  line-height: 1.7;
   padding: 0.8em;
 }
 
@@ -354,6 +357,9 @@ section#about .contenedor .padre .der img {
   margin: auto;
   max-width: 350px;
   max-height: 500px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 33px 3px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 7px 33px 3px rgba(0, 0, 0, 0.28);
 }
 
 @media screen and (max-width: 1199px) {
@@ -510,6 +516,7 @@ section#main .contenedor .sub .padre .izq h1,
 section#main .contenedor .sub .padre .izq p {
   text-align: left;
   padding: 0.8em;
+  line-height: 1.7;
 }
 
 section#main .contenedor .sub .padre .izq h1 {
@@ -519,7 +526,7 @@ section#main .contenedor .sub .padre .izq h1 {
 
 section#main .contenedor .sub .padre .izq p {
   margin-top: 1.7em;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 section#main .contenedor .sub .padre .izq button {
@@ -533,6 +540,7 @@ section#main .contenedor .sub .padre .izq button {
   padding: 0.8em 2em 0.8em 2em;
   -webkit-transition: 1s linear;
   transition: 1s linear;
+  margin-bottom: 2em;
 }
 
 section#main .contenedor .sub .padre .izq button:hover {

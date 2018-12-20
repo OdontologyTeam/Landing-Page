@@ -2,7 +2,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
-  font-family: 'Roboto', sans-serif !important;
   font-weight: 300;
 }
 
@@ -66,7 +65,7 @@
 .menu nav li a {
   text-decoration: none;
   color: white;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 1.79em;
 }
@@ -206,7 +205,7 @@ header .contenedor nav li {
 header .contenedor nav li a {
   text-decoration: none;
   color: white;
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-weight: 300;
   white-space: nowrap;
 }
@@ -231,7 +230,7 @@ section#services {
 section#services .contenedor {
   padding-top: 2em;
   padding-bottom: 4em;
-  font-family: "Open Sans";
+  font-family: 'Roboto', sans-serif !important;
   text-align: center;
 }
 
@@ -243,7 +242,7 @@ section#services .contenedor h2 {
 
 section#services .contenedor button {
   margin-top: 3em;
-  font-family: "Open Sans";
+  font-family: "Roboto";
   color: white;
   background-color: #00CCDB;
   border-color: transparent;
@@ -285,7 +284,7 @@ section#services .contenedor .padre .caja .titulo p {
 }
 
 section#services .contenedor .padre .caja button {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   background-color: transparent;
   border-color: transparent;
   margin-top: 1em;
@@ -313,7 +312,7 @@ section#about .contenedor .padre {
 section#about .contenedor .padre .izq {
   width: 100%;
   max-width: 600px;
-  font-family: "Open Sans";
+  font-family: "Roboto";
   text-align: center;
   position: relative;
   left: 6em;
@@ -403,7 +402,7 @@ section#about .contenedor .padre .der img {
 }
 
 .location {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-weight: 300;
 }
 
@@ -474,7 +473,12 @@ section#about .contenedor .padre .der img {
   height: 100%;
   width: 100%;
   position: relative;
-  top: -0.1em;
+  top: -0.3em;
+}
+
+section#main {
+  position: relative;
+  top: -0.2em;
 }
 
 section#main .contenedor {
@@ -509,7 +513,7 @@ section#main .contenedor .sub .padre .izq {
   width: 100%;
   max-width: 600px;
   color: white;
-  font-family: "Open Sans";
+  font-family: "Roboto";
 }
 
 section#main .contenedor .sub .padre .izq h1,
@@ -536,7 +540,7 @@ section#main .contenedor .sub .padre .izq button {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.637);
   color: white;
-  font-family: "Open Sans";
+  font-family: "Roboto";
   padding: 0.8em 2em 0.8em 2em;
   -webkit-transition: 1s linear;
   transition: 1s linear;
@@ -586,6 +590,7 @@ section#main .contenedor .sub .padre .der img {
 }
 
 .contact .box-father .title h2 {
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 2.2em;
 }
@@ -602,6 +607,10 @@ section#main .contenedor .sub .padre .der img {
 .contact .box-father .contact-box form {
   width: 100%;
   text-align: center;
+}
+
+.contact .box-father .contact-box form textarea {
+  font-family: "Roboto";
 }
 
 .contact .box-father .contact-box form .user {

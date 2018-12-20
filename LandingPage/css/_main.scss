@@ -6,12 +6,13 @@
       height: 100%;
       width: 100%;
       position: relative;
-      top: -0.1em;
+      top: -0.3em;
     }
   }
 
   section#main {
-
+    position: relative;
+    top: -0.2em;
     .contenedor {
       max-width: none;
       background-color: #00ccdb;
@@ -33,7 +34,7 @@
             width: 100%;
             max-width: 600px;
             color: white;
-            font-family: "Open Sans";
+            font-family: "Roboto";
 
             h1,
             p {
@@ -59,7 +60,7 @@
               background-color: transparent;
               border: 1px solid rgba(255, 255, 255, 0.637);
               color: white;
-              font-family: "Open Sans";
+              font-family: "Roboto";
               padding: 0.8em 2em 0.8em 2em;
               transition: 1s linear;
               margin-bottom: 2em;

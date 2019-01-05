@@ -23,7 +23,7 @@
         <button>Ver más</button>
       </div>
     </div>
-    <button data-aos="zoom-out-up">Más servicios</button>
+   
   </div>
 </template>
 <script>

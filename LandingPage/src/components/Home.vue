@@ -19,7 +19,7 @@
   export default {
     data() {
       return {
-          title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          title: 'Doctora María Alejandra Manosalva Odontologa especialista en Endodoncia',
           text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ad! Quod expedita libero dicta
           numquam ducimus, error iure mollitia, aperiam eaque ipsa illo, molestiae maxime architecto!
           Vero, necessitatibus! Corrupti, qui?
@@ -27,7 +27,7 @@
           numquam ducimus, error
           iure mollitia, aperiam eaque ipsa illo, molestiae maxime architecto! Vero, necessitatibus!
           Corrupti, qui?`,
-          button: 'Empezar ya'
+          button: 'Saber más'
       }
     }
   }

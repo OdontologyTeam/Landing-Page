@@ -7,11 +7,11 @@
       <div class="menu">
         <p id = "closeMenu"> <i class="fas fa-times-circle"></i></p>
         <nav>
-          <li><a href="#">INICIO</a></li>
-          <li><a href="#">ACERCA</a></li>
-          <li><a href="#">SERVICIOS</a></li>
-          <li><a href="#">UBICACIÓN</a></li>
-          <li><a href="#">CONTACTO</a></li>
+          <li class = "home"><a href="#">INICIO</a></li>
+          <li class = "about"><a href="#">ACERCA</a></li>
+          <li class = "services"><a href="#">SERVICIOS</a></li>
+          <li class = "ubication"><a href="#">UBICACIÓN</a></li>
+          <li class = "contact"><a href="#">CONTACTO</a></li>
         </nav>
       </div>
     <header class="responsive">
@@ -23,26 +23,26 @@
     <header class = "normal">
       <div class="contenedor">
         <nav>
-          <li v-for="item in navItems" :item="item"><a href="#">{{item}}</a></li>
+          <li v-for="(item, index) in navItems" :item="item"><a :href="'#' + index" v-smooth-scroll>{{item}}</a></li>
         </nav>
       </div>
     </header>
-    <section id="main">
+    <section class = "main" id= "0">
       <Home />
     </section>
     <div class="curva">
       <img src="../imgs/Curve.png" alt="">
     </div>
-    <section id="about">
+    <section class="about" id="1">
       <About />
     </section>
-    <section id="services">
+    <section class = "services" id="2">
       <Services />
     </section>
-    <section class="location-sect">
+    <section class="location-sect" id = "3">
       <Location />
     </section>
-    <section class="contact-sect">
+    <section class="contact-sect" id = "4">
       <Contact />
     </section>
     <section class="foot-sect">
@@ -62,7 +62,7 @@
     name: 'app',
     data() {
       return {
-        navItems: ['Inicio', 'Acerca de', 'Servicios', 'Ubicación', 'Contacto']
+        navItems: ['Inicio', 'Acerca', 'Servicios', 'Ubicación', 'Contacto']
       }
     },
     components: {

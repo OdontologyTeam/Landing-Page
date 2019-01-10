@@ -1,6 +1,9 @@
 import vue from 'vue'
 import App from './App.vue'
 
+import vueSmoothScroll from 'vue-smooth-scroll'
+vue.use(vueSmoothScroll)
+
 new vue({
   el: '#app',
   render: h => h(App)

@@ -223,24 +223,24 @@ header .contenedor nav li:nth-child(5) {
   }
 }
 
-section#services {
+section.services {
   background-color: #F8F8F8 !important;
 }
 
-section#services .contenedor {
+section.services .contenedor {
   padding-top: 2em;
   padding-bottom: 4em;
   font-family: 'Roboto', sans-serif !important;
   text-align: center;
 }
 
-section#services .contenedor h2 {
+section.services .contenedor h2 {
   text-align: center;
   font-weight: bold;
   font-size: 2.2em;
 }
 
-section#services .contenedor button {
+section.services .contenedor button {
   margin-top: 3em;
   font-family: "Roboto";
   color: white;
@@ -250,7 +250,7 @@ section#services .contenedor button {
   cursor: pointer;
 }
 
-section#services .contenedor .padre {
+section.services .contenedor .padre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,7 +260,7 @@ section#services .contenedor .padre {
   padding: 1%;
 }
 
-section#services .contenedor .padre .caja {
+section.services .contenedor .padre .caja {
   padding: 1.5%;
   width: 100%;
   margin: 1%;
@@ -272,18 +272,18 @@ section#services .contenedor .padre .caja {
   border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-section#services .contenedor .padre .caja .titulo h3,
-section#services .contenedor .padre .caja .titulo p {
+section.services .contenedor .padre .caja .titulo h3,
+section.services .contenedor .padre .caja .titulo p {
   text-align: center;
   margin-top: 1em;
 }
 
-section#services .contenedor .padre .caja .titulo p {
+section.services .contenedor .padre .caja .titulo p {
   color: rgba(0, 0, 0, 0.589);
   line-height: 1.7;
 }
 
-section#services .contenedor .padre .caja button {
+section.services .contenedor .padre .caja button {
   font-family: "Roboto";
   background-color: transparent;
   border-color: transparent;
@@ -293,12 +293,12 @@ section#services .contenedor .padre .caja button {
   left: 8em;
 }
 
-section#about .contenedor {
+section.about .contenedor {
   background-color: white !important;
   margin-top: 5em;
 }
 
-section#about .contenedor .padre {
+section.about .contenedor .padre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,7 +309,7 @@ section#about .contenedor .padre {
           justify-content: center;
 }
 
-section#about .contenedor .padre .izq {
+section.about .contenedor .padre .izq {
   width: 100%;
   max-width: 600px;
   font-family: "Roboto";
@@ -329,7 +329,7 @@ section#about .contenedor .padre .izq {
   top: -3.5em;
 }
 
-section#about .contenedor .padre .izq h2 {
+section.about .contenedor .padre .izq h2 {
   text-align: center;
   max-width: 500px;
   font-weight: bold;
@@ -337,7 +337,7 @@ section#about .contenedor .padre .izq h2 {
   margin-top: -2.8em;
 }
 
-section#about .contenedor .padre .izq p {
+section.about .contenedor .padre .izq p {
   margin-top: 1.1em;
   text-align: left;
   max-width: 500px;
@@ -345,13 +345,13 @@ section#about .contenedor .padre .izq p {
   padding: 0.8em;
 }
 
-section#about .contenedor .padre .der {
+section.about .contenedor .padre .der {
   width: 100%;
   max-width: 600px;
   text-align: center;
 }
 
-section#about .contenedor .padre .der img {
+section.about .contenedor .padre .der img {
   width: 100%;
   margin: auto;
   max-width: 350px;
@@ -476,23 +476,23 @@ section#about .contenedor .padre .der img {
   top: -0.3em;
 }
 
-section#main {
+section.main {
   position: relative;
   top: -0.2em;
 }
 
-section#main .contenedor {
+section.main .contenedor {
   max-width: none;
   background-color: #00ccdb;
   z-index: 1;
 }
 
-section#main .contenedor .sub {
+section.main .contenedor .sub {
   max-width: 1200px;
   margin: auto;
 }
 
-section#main .contenedor .sub .padre {
+section.main .contenedor .sub .padre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,7 +503,7 @@ section#main .contenedor .sub .padre {
           justify-content: center;
 }
 
-section#main .contenedor .sub .padre .izq {
+section.main .contenedor .sub .padre .izq {
   margin-top: 3em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -516,24 +516,24 @@ section#main .contenedor .sub .padre .izq {
   font-family: "Roboto";
 }
 
-section#main .contenedor .sub .padre .izq h1,
-section#main .contenedor .sub .padre .izq p {
+section.main .contenedor .sub .padre .izq h1,
+section.main .contenedor .sub .padre .izq p {
   text-align: left;
   padding: 0.8em;
   line-height: 1.7;
 }
 
-section#main .contenedor .sub .padre .izq h1 {
+section.main .contenedor .sub .padre .izq h1 {
   font-size: 1.6em;
   font-weight: 600;
 }
 
-section#main .contenedor .sub .padre .izq p {
+section.main .contenedor .sub .padre .izq p {
   margin-top: 1.7em;
   font-size: 1em;
 }
 
-section#main .contenedor .sub .padre .izq button {
+section.main .contenedor .sub .padre .izq button {
   position: relative;
   top: 1em;
   left: -0.6em;
@@ -547,18 +547,18 @@ section#main .contenedor .sub .padre .izq button {
   margin-bottom: 2em;
 }
 
-section#main .contenedor .sub .padre .izq button:hover {
+section.main .contenedor .sub .padre .izq button:hover {
   background: white;
   color: black;
   cursor: pointer;
 }
 
-section#main .contenedor .sub .padre .der {
+section.main .contenedor .sub .padre .der {
   width: 100%;
   max-width: 600px;
 }
 
-section#main .contenedor .sub .padre .der img {
+section.main .contenedor .sub .padre .der img {
   width: 100%;
 }
 

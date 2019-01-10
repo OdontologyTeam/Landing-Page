@@ -9,7 +9,7 @@
         <p>{{text}}</p> 
       </div>
       <div class="der">
-        <img :src="'../imgs/'+img" alt="">
+        <img :src="'../imgs/'+img" alt="Doc. María Alejandra">
       </div>
     </div>
   </div>

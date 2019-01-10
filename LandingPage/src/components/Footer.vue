@@ -14,7 +14,7 @@ export default {
     data(){
         return{
             owner: 'Doctora María Alejandra Manosalva',
-            rights:'Todos los derechos reservados '
+            rights: `${new Date().getFullYear()} | Todos los derechos reservados` 
         }
     }
 }

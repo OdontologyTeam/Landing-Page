@@ -23,7 +23,7 @@
     <header class = "normal">
       <div class="contenedor">
         <nav>
-          <li v-for="(item, index) in navItems" :item="item"><a :href="'#' + index" v-smooth-scroll>{{item}}</a></li>
+          <li v-for="(item, index) in navItems" :item="item"><a :href="'#' + index" v-smooth-scroll="{ duration: 1000, offset: -50 }">{{item}}</a></li>
         </nav>
       </div>
     </header>

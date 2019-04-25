@@ -15,7 +15,7 @@ export default class Layout extends Component {
           }
         </React.Fragment>
 
-        <style global>
+        <style jsx global>
           {`
             body {
               margin: 0;

@@ -14,6 +14,15 @@ export default class Layout extends Component {
             children
           }
         </React.Fragment>
+
+        <style global>
+          {`
+            body {
+              margin: 0;
+              font-family: system-ui;
+            }
+          `}
+        </style>
       </div>
     )
   }

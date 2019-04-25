@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
+import MainHome from './mainHome'
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        Bye
+      <React.Fragment>
         {
           // TODO: here is where is going to be all the components of the app
         }
-      </div>
+        <MainHome/>
+      </React.Fragment>
     )
   }
 }

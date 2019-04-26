@@ -3,6 +3,7 @@ import NavBar from '../components/navbar'
 import Hero from '../components/hero'
 import About from '../components/about'
 import Services from '../components/services'
+import GoogleMapsReact from '../components/googleMapsReact'
 
 export default class MainHome extends Component {
   
@@ -20,6 +21,7 @@ export default class MainHome extends Component {
         <Services
           name="Conoce mis servicios"
         />
+        <GoogleMapsReact isMakerShown/>
       </React.Fragment>
     )
   }

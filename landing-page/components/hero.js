@@ -1,6 +1,8 @@
 import React from 'react'
 
 const hero = (props) => {
+  const { name } = props
+
   return (
     <section className="main">
       <div className="contenedor">
@@ -8,7 +10,7 @@ const hero = (props) => {
           <div className="padre">
             <div className="izq">
               <h1>
-                Doctora María Alejandra Manosalva Odontologa especialista en Endodoncia
+                {name}
               </h1>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ad! Quod expedita libero dicta

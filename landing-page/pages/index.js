@@ -1,7 +1,7 @@
 import { Component } from 'react'
 //Components
 import Layout from '../containers/layout'
-import Home from '../containers/home'
+import MainHome from '../containers/mainHome'
 
 export default class extends Component {
   render() {
@@ -9,7 +9,7 @@ export default class extends Component {
       <Layout
         title="María Alejandra Manosalva | Odontologa especialista en endodoncia"
       >
-        <Home/>
+        <MainHome/>
       </Layout>
     )
   }

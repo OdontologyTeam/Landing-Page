@@ -18,8 +18,15 @@ export default class Layout extends Component {
         <style jsx global>
           {`
             body {
-              margin: 0;
-              font-family: system-ui;
+              margin: 0;  
+              box-sizing: border-box;
+              font-weight: 300;
+              font-family: 'Roboto', sans-serif !important;
+            }
+
+            .contenedor {
+              max-width: 1200px;
+              margin: auto;
             }
           `}
         </style>

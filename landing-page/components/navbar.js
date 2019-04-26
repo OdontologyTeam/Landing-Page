@@ -70,7 +70,6 @@ export default function navbar(props) {
           a{
             text-decoration: none;
             color: white;
-            font-family: "Roboto";
             font-weight: 300;
             white-space: nowrap;
           }

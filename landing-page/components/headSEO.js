@@ -16,6 +16,7 @@ export default function HeadSEO(props) {
         interdisciplinario con las demás especialidades de la odontología,
         utilizando tecnología de punta."
       />
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
     </Head>
   )
 }

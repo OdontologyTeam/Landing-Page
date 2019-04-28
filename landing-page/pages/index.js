@@ -4,6 +4,7 @@ import Layout from '../containers/layout'
 import MainHome from '../containers/mainHome'
 
 export default class extends Component {
+  
   render() {
     return (
       <Layout

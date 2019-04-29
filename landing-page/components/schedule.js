@@ -6,6 +6,18 @@ const Schedule = (props) => {
     <p className="text">
       {day}
       <span className="time">{time}</span>
+      <style jsx>
+        {`
+          .text {
+            font-weight: 600;
+            margin-bottom: 0.5em;
+          }
+
+          .time {
+            margin-left: 0.68em;
+          }
+        `}
+      </style>
     </p>
   )
 }

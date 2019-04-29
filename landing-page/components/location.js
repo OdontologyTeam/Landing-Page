@@ -76,7 +76,16 @@ const location = (props) => {
             text-align: left;
           }
 
-          
+          .line {
+            width: 20% !important;
+            margin-left: 1.5em;
+          }
+
+          .schedule {
+            text-align: left;
+            margin-left: 1.5em;
+            margin-top: 0.5em;
+          }
         `}
       </style>
     </div>
@@ -87,12 +96,12 @@ const schedule = [
   {
     id: 1,
     day: 'Lun - Vier',
-    time: '09:00 - 16:00'
+    time: '08:00 - 18:00'
   },
   {
     id: 2,
-    day: 'Sab - Festi',
-    time: '10:00 - 13:00'
+    day: 'Sab',
+    time: '8:00 - 12:00'
   }
 ]
 

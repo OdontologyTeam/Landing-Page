@@ -3,8 +3,8 @@ import NavBar from '../components/navbar'
 import Hero from '../components/hero'
 import About from '../components/about'
 import Services from '../components/services'
-import GoogleMapsReact from '../components/googleMapsReact'
 import Location from '../components/location'
+import Footer from '../components/footer'
 
 export default class MainHome extends Component {
   
@@ -26,6 +26,10 @@ export default class MainHome extends Component {
           office="Edificio Tempo II"
           address="Calle 43 # 29-13"
           phone="+57 3125478966"
+        />
+        <Footer 
+          rights="Todos los derechos reservados"
+          owner="Doctora María Alejandra Manosalva"
         />
       </React.Fragment>
     )

@@ -17,7 +17,6 @@ const Footer = (props) => {
       <style jsx>
         {`
           .footer {
-            width: 100%;
             background-color: #2D2D2D;
             font-family: "Roboto";
             padding: 2em 5em !important;

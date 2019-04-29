@@ -83,6 +83,52 @@ const About = (props) => {
             -moz-box-shadow: 0px 7px 33px 3px rgba(0, 0, 0, 0.28);
             box-shadow: 0px 7px 33px 3px rgba(0, 0, 0, 0.28);
           }
+
+          @media screen and (max-width: 1199px) {
+            .contenedor .padre .izq {
+              position: static;
+              max-width: 1200px;
+              padding: 1%;    
+            }
+
+            h2 {
+              text-align: center;
+            }
+
+            p {
+              text-align: justify;
+            }
+
+            .der {
+              max-width: 1200px;
+              margin-top: 1em;
+            }
+          }
+
+          @media screen and (max-width: 958px) {
+            .contenedor {
+              background-color: white !important;
+              margin-top: 5em;
+            }
+
+            .contenedor .padre {
+              flex-wrap: wrap;
+            }
+
+            .contenedor .padre .izq h2 {
+              margin-top: 0.01em;
+            }
+
+            .contenedor .padre .izq p {
+              max-width: 600px;
+              margin: auto;
+              margin-top: 2em;
+            }
+
+            .contenedor .padre .der {
+              padding-bottom: 5em;
+            }
+          }
         `}
       </style>
     </div>

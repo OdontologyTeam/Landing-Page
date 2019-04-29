@@ -4,7 +4,7 @@ import ListServices from './listServices'
 const Services = (props) => {
   const { name } = props
   return (
-    <section className="services">
+    <div className="services">
       <div className="contenedor">
         <h2>{name}</h2>
         <div className="padre">
@@ -54,7 +54,7 @@ const Services = (props) => {
 
         `}
       </style>
-    </section>
+    </div>
   )
 }
 

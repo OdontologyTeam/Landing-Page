@@ -111,6 +111,20 @@ const hero = (props) => {
             width: 100%;
             margin-bottom: 12em;
           }
+
+          @media screen and (max-width: 750px) {
+            .contenedor .padre {
+              padding: 2%;
+            }
+
+            .der img {
+              margin-top: 2em;
+            }
+
+            .contenedor .sub .padre .izq {
+              margin-top: 0;
+            }
+          }
         `}
       </style>
     </section>

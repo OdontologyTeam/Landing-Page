@@ -14,7 +14,8 @@ export default class MainHome extends Component {
       <React.Fragment>
         <NavBar/>
         <Hero
-          name="Doctora María Alejandra Manosalva Odontologa especialista en Endodoncia"
+          name="Doctora María Manosalva"
+          subtitle="Endodoncia"
         />
         <About
           name="Acerca de mí"

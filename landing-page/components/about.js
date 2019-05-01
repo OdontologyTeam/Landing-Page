@@ -28,6 +28,7 @@ const About = (props) => {
           .contenedor {
             background-color: white !important;
             margin-top: 5em;
+            margin-bottom: 5em;
           }
 
           .padre {
@@ -43,7 +44,6 @@ const About = (props) => {
             max-width: 600px;
             font-family: "Roboto";
             text-align: center;
-            position: relative;
             left: 6em;
             display: flex;
             flex-direction: column;
@@ -56,7 +56,6 @@ const About = (props) => {
             max-width: 500px;
             font-weight: bold;
             font-size: 2.2em;
-            margin-top: -2.8em;
           }
 
           p {

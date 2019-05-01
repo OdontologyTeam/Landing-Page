@@ -1,7 +1,7 @@
 import React from 'react'
 
 const hero = (props) => {
-  const { name } = props
+  const { name, subtitle } = props
 
   return (
     <section className="main">
@@ -9,17 +9,15 @@ const hero = (props) => {
         <div className="sub">
           <div className="padre">
             <div className="izq">
-              <h1>
+              <h1 className="title">
                 {name}
               </h1>
+              <h3 className="title sub-title">{subtitle}</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ad! Quod expedita libero dicta
-                numquam ducimus, error iure mollitia, aperiam eaque ipsa illo, molestiae maxime architecto!
-                Vero, necessitatibus! Corrupti, qui?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ad! Quod expedita libero dicta
-                numquam ducimus, error
-                iure mollitia, aperiam eaque ipsa illo, molestiae maxime architecto! Vero, necessitatibus!
-                Corrupti, qui?
+                Odontóloga de la Universidad Santo Tomás de Bucaramanga, especialista en Endodoncia con más de 7 años de experiencia atendiendo casos de altos niveles de complejidad, donde se han logrado excelentes resultados.
+              </p>
+              <p className="paragraph">
+                Brindo a mis pacientes la confianza y seguridad de obtener los resultados más profesionales en cualquier tipo de tratamiento odontológico, basándome en mi amplia experiencia profesional, mi carisma con las personas, el amor por lo que hago, la tecnología de punta que utilizo en mi consultorio y el acompañamiento de odontólogos especialistas en diferentes áreas para entregarle a mis pacientes solo lo mejor!
               </p>
               <button>Saber más</button>
             </div>
@@ -69,19 +67,34 @@ const hero = (props) => {
 
           h1, p {
             text-align: left;
-            padding: 0.8em;
             line-height: 1.7;
           }
-
+          
           h1 {
             font-size: 1.6em;
             font-weight: 600;
+            padding: 20.48px 20.48px 0 20.48px;
           }
-
+          
+          .title {
+            margin: 0;
+          }
+          
+          .sub-title {
+            padding: 0 20.48px 0 20.48px;
+            text-align: left;
+            line-height: 1.7;
+          }
+          
           p {
+            padding: 0.8em;
             margin-top: 1.7em;
             font-size: 1em;
           }
+
+          .paragraph {
+            margin: 0;
+          } 
 
           button {
             position: relative;

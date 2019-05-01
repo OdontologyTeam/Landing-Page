@@ -2,6 +2,7 @@ import React from 'react'
 
 const Footer = (props) => {
   const { rights, owner } = props
+  // TODO: add social media and also a link of the redontologos
   return (
     <div className="footer">
       <div className="left">

@@ -11,8 +11,8 @@ const Services = (props) => {
           {
             allServices.map(item => (
               <ListServices
-              key={item.id}
-              {...item}
+                key={item.id}
+                {...item}
               />
               ))
             }
@@ -63,8 +63,8 @@ const allServices = [
   {
     id: 1,
     img:'/static/molar.png',
-    alt: 'Endodoncia',
-    title: 'Endodoncia',
+    alt: 'Cirugía maxilofacial',
+    title: 'Cirugía maxilofacial',
     content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
               expedita perspiciatis
               labore`
@@ -72,8 +72,8 @@ const allServices = [
   {
     id: 2,
     img:'/static/implants.png',
-    alt: 'Odontología General',
-    title: 'General',
+    alt: 'Implantología dental',
+    title: 'Implantología dental',
     content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
               expedita perspiciatis
               labore`
@@ -81,8 +81,8 @@ const allServices = [
   {
     id: 3,
     img:'../static/records.png',
-    alt: 'Ortodoncia',
-    title: 'Ortodoncia',
+    alt: 'Odontología preventiva',
+    title: 'Odontología preventiva',
     content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
               expedita perspiciatis
               labore`
@@ -90,15 +90,6 @@ const allServices = [
   {
     id: 4,
     img:'../static/mouth.png',
-    alt: 'Rehabilitación Oral',
-    title: 'Rehabilitación Oral',
-    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
-              expedita perspiciatis
-              labore`
-  },
-  {
-    id: 5,
-    img:'../static/gum.png',
     alt: 'Periodoncia',
     title: 'Periodoncia',
     content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
@@ -106,10 +97,64 @@ const allServices = [
               labore`
   },
   {
+    id: 5,
+    img:'../static/gum.png',
+    alt: 'Endodoncia',
+    title: 'Endodoncia',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
     id: 6,
     img:'../static/tooth.png',
-    alt: 'Cirugía',
-    title: 'Cirugía',
+    alt: 'Odontología estética',
+    title: 'Odontología estética',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
+    id: 7,
+    img:'../static/tooth.png',
+    alt: 'Odontopediatría',
+    title: 'Odontopediatría',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
+    id: 8,
+    img:'../static/tooth.png',
+    alt: 'Rehabilitación oral',
+    title: 'Rehabilitación oral',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
+    id: 9,
+    img:'../static/tooth.png',
+    alt: 'Medicina oral',
+    title: 'Medicina oral',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
+    id: 10,
+    img:'../static/tooth.png',
+    alt: 'Odontología general',
+    title: 'Odontología general',
+    content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
+              expedita perspiciatis
+              labore`
+  },
+  {
+    id: 11,
+    img:'../static/tooth.png',
+    alt: 'Ortodoncia',
+    title: 'Ortodoncia',
     content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur, explicabo itaque
               expedita perspiciatis
               labore`

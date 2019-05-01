@@ -2,6 +2,10 @@ import React from 'react'
 
 const listServices = (props) => {
   const { img, alt, title, content} = props
+  /**
+   * TODO: redisign the cards and generate a kind of carousel. 
+   * TODO: cards - change the description and the images, also delete the button
+   */
   return (
     <div className="caja">
       <div className="img">

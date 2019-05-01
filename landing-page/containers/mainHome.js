@@ -5,6 +5,7 @@ import About from '../components/about'
 import Services from '../components/services'
 import Location from '../components/location'
 import Footer from '../components/footer'
+import Sponsor from '../components/sponsor'
 
 export default class MainHome extends Component {
   
@@ -21,7 +22,10 @@ export default class MainHome extends Component {
           name="Acerca de mí"
         />
         <Services
-          name="Conoce mis servicios"
+          name="Especialidades"
+        />
+        <Sponsor 
+        
         />
         <Location
           office="Edificio Tempo II"

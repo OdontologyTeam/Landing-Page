@@ -12,7 +12,7 @@ const defaultProps = {
     lat: 7.1198549,
     lng: -73.1127888
   },
-  zoom: 19
+  zoom: 17
 }
 
 const googleMapsReact = compose (

@@ -4,6 +4,9 @@ import Schedule from './schedule'
 
 const location = (props) => {
   const { office, address, phone } = props
+  /**
+   * TODO: maps - check the design of the location card 
+   */
   return (
     <div className="location">
       <div className="map">

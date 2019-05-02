@@ -2,13 +2,23 @@ import React from 'react'
 
 const Footer = (props) => {
   const { rights, owner } = props
-  // TODO: add social media and also a link of the redontologos
+  /**
+   * TODO: add social media and also a link of the redontologos
+   * Instagram 
+   * Linkedin
+   * redondontologos
+   */ 
   return (
     <div className="footer">
       <div className="left">
         <p className="text">
           &copy; {rights}
         </p>
+        <ul>
+          <li>Instagram</li>
+          <li>Linkedin</li>
+          <li>Red Odontólogos</li>
+        </ul>
       </div>
       <div className="right">
         <p className="text">
@@ -28,17 +38,18 @@ const Footer = (props) => {
             width: 50%;
             text-align: right;
             color: #ffffff;
+            align-self: center;
           }
 
           .left {
             width: 50%;
             text-align: left;
             color: #ffffff; 
+            display: block;
           }
 
           @media screen and (max-width: 750px) {
             .footer {
-              width: 100%;
               display: block;
             }
 

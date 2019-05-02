@@ -20,7 +20,7 @@ const Footer = (props) => {
           .footer {
             background-color: #2D2D2D;
             font-family: "Roboto";
-            padding: 2em 5em !important;
+            padding: 1em 5em !important;
             display: flex;
           }
 
